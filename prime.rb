@@ -1,14 +1,14 @@
 def prime?(number)
   if number < 2
-    return false 
+    return false
 
-  i = 2 
+  i = 2
   while i < number
     if number % i == 0
       return false
-    end 
+    end
     i += 1
-  end 
+  end
   return true
 end
      # Add  code here!
